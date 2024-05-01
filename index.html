@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width , initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <div id="splash" class="splash-screen">
+            <!-- <img src="minimalist-stationery-1.jpg" alt="splash-screen" class="splash-img"> -->
+            <h1 class="splash-text">Designing is a journey of Discovery!</h1>
+            <h1 class="splash-title">Let's discover my journey of Designing!!</h1>
+        </div>
+        <nav id="desktop-nav">
+            <div class="logo">Arya Sethi</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="navItems">
+                <div class="logo">Arya Sethi</div>
+                <i class="hamburger-icon" onclick="toggleMenu()">menu</i>
+            </div>
+        </nav>
+        <div class="main">
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+            <section id="profile" class="box">
+                <div class="about-containers">
+                    <div class="profileImage">
+                        <img src="Profile_Arya.png" alt="Arya profile picture" style="border-radius: 60%;" class="profileImage">
+                    </div>
+                    <div class="section_text">
+                        <p class="section_text_p1">Hello, I'm</p>
+                        <h1 class="title">Arya Sethi</h1>
+                        <p class="section_text_p2">Graphic Designer</p>
+                        <div class="btn-container">
+                            <button class="btn btn-color2" onclick="window.open('Arya-Sethi-Resume.pdf')"> Download CV</button>
+                            <button class="btn btn-color1" onclick="location.href='#contact'">Contact Me</button>
+                        </div>
+                        <div id="socials-container">
+                            <img src="linkedin-icon.png" alt="My LinkedIn handle" class="icon"
+                                onclick="location.href='https://linkedin.com/'">
+            
+                            <img src="figma-icon.jpeg" alt="My Figma handle" class="icon"
+                                onclick="location.href='https://figma.com/'">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="about">
+                <p class="section_text_p1">Get to know more</p>
+                <h1 class="title1" style="margin-bottom: 50px ;">About Me</h1>
+                <div class="section-container">
+                    <img src="linkedin_profile1-removebg-preview (3).png" alt="Know More" class="about-pic"
+                    style="vertical-align: middle;" />
+                    <div class="about-details-container">
+                        <div class="about-containers">
+                            <div class="details-container">
+                                <img src="experience-icon1.png" alt="experience" class="icon" />
+                                <h3>Experience</h3>
+                                <p>Graphic Designer Intern <br />At Duranz IT Solutions</p>
+                            </div>
+                            <div class="details-container">
+                                <img src="education-icon.png" alt="education" class="icon" style="height: 40px; width: 50px;" />
+                                <h3>Education</h3>
+                                <p>Student <br />B.Tech from Poornima College Of Engineering</p>
+                            </div>
+                        </div>
+                        <div class="text-container">
+                            <p style="text-align: justify;">As a newcomer to the world of design, I'm just starting out on this exciting journey. 
+                                While I may lack extensive experience, I'm passionate about learning and eager to dive into creative projects. 
+                                My goal is to create visually appealing designs that leave a lasting impression. 
+                                Although I'm still learning the ropes, I'm committed to growing and improving every day. 
+                                Join me as I embark on this adventure in design, and let's learn and grow together.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="experience">
+                <p class="section_text_p1">Explore My</p>
+                <h1 class="title">Experience</h1>
+                <div class="experience-details-container">
+                    <div class="about-containers">
+                        <div class="experience-container">
+                            <h2 class="experience-sub-title">Frontend Devlopment</h2>
+                            <div class="article-containers">
+                                <article class="experience-article">
+                                    <img src="check-icon2.png" alt="Experience icon" class="icon" style="width: 50px;" />
+                                    <div>
+                                        <h3>HTML</h3>
+                                        <p>Experienced</p>
+                                    </div>
+                                </article>
+                                <article class="experience-article">
+                                    <img src="check-icon2.png" alt="Experience icon" class="icon" style="width: 50px;" />
+                                    <div>
+                                        <h3>CSS</h3>
+                                        <p>Experienced</p>
+                                    </div>
+                                </article>
+                                <article class="experience-article">
+                                    <img src="check-icon2.png" alt="Experience icon" class="icon" style="width: 50px;" />
+                                    <div>
+                                        <h3 >JavaScript</h3>
+                                        <p>Intermediate</p>
+                                    </div>
+                                </article>
+                                <article class="experience-article">
+                                    <img src="check-icon2.png" alt="Experience icon" class="icon" style="width: 50px;" />
+                                    <div>
+                                        <h3 >Bootstrap</h3>
+                                        <p>Beginner</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="experience-container2">
+                            <h2 class="experience-sub-title">Designing Softwares</h2>
+                            <div class="article-containers">
+                                <article class="experience-article">
+                                    <img src="check-icon2.png" alt="Experience icon" class="icon"  style="width: 50px;"/>
+                                    <div>
+                                        <h3>Figma</h3>
+                                        <p>Experienced</p>
+                                    </div>
+                                </article>
+                                <article class="experience-article">
+                                    <img src="check-icon2.png" alt="Experience icon" class="icon" style="width: 50px;" />
+                                    <div>
+                                        <h3>Canva</h3>
+                                        <p>Intermediate</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="projects"> 
+                <p class="section_text_p1">Browse My Works</p>
+                <h1 class="title">Projects</h1>
+                <div class="experience-details-container">
+                    <div class="about-containers1">
+                        <div class="color-container">
+                            <div class="wrap-div1">
+                                <div class="article-containers1">
+                                    <div class="article-containers">
+                                        <video loop autoplay muted controls  class="project-video1">
+                                            <source src="fruit-cider.mp4" type="video/mp4">
+                                            Your browser does not support the video
+                                        </video>
+                                    </div>
+                                    <h2 class="experience-sub-title project-title">Fruit Cider</h2>
+                                    <div class="btn-container">
+                                        <button class="btn btn-color2 project-btn" 
+                                        onclick="location.href='https://figma.com/'">
+                                        Live Demo
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="article-containers1">
+                                    <div class="article-containers">
+                                        <div class="image-container">
+                                            <img 
+                                            src="fig-project6.png" 
+                                            alt="project-pic" 
+                                            class="project-img"
+                                        />
+                                        </div>
+                                    </div>
+                                    <h2 class="experience-sub-title project-title">Food Ordering Page</h2>
+                                        <div class="btn-container">
+                                            <button class="btn btn-color2 project-btn" 
+                                            onclick="location.href='https://figma.com/'">
+                                            Live Demo
+                                            </button>
+                                        </div>
+                                </div>
+                                <div class="article-containers1">
+                                    <div class="article-containers">
+                                        <img 
+                                        src="fig-project4.png" 
+                                        alt="project-pic" 
+                                        class="project-img"
+                                        />
+                                    </div>
+                                    <h2 class="experience-sub-title project-title">Cafe Logo</h2>
+                                        <div class="btn-container">
+                                            <button class="btn btn-color2 project-btn" 
+                                            onclick="location.href='https://figma.com/'">
+                                            Live Demo
+                                            </button>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="wrap-div">
+                                <div class="article-containers1">
+                                    <div class="article-containers">
+                                        <video loop autoplay muted  height="800px" controls class="project-video">
+                                            <source src="fig-project-Duranz.mp4" type="video/mp4">
+                                            Your browser does not support the video
+                                        </video>
+                                    </div>
+                                    <h2 class="experience-sub-title project-title">Duranz Personal Website</h2>
+                                    <div class="btn-container">
+                                        <button class="btn btn-color2 project-btn" 
+                                        onclick="location.href='https://figma.com/'">
+                                        Live Demo
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="article-containers1">
+                                    <div class="article-containers">
+                                        <video loop autoplay muted  height="800px" controls class="project-video">
+                                            <source src="parallax.mp4" type="video/mp4">
+                                            Your browser does not support the video
+                                        </video>
+                                    </div>
+                                    <h2 class="experience-sub-title project-title">Parallax effect</h2>
+                                    <div class="btn-container">
+                                        <button class="btn btn-color2 project-btn" 
+                                        onclick="location.href='https://figma.com/'">
+                                        Live Demo
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wrap-div">
+                                
+                                <div class="article-containers1">
+                                    <div class="article-containers">
+                                        <video loop autoplay muted  height="800px" controls class="project-video1">
+                                            <source src="carousel.mp4" type="video/mp4">
+                                            Your browser does not support the video
+                                        </video>
+                                    </div>
+                                    <h2 class="experience-sub-title project-title">Wander Stories App Designing</h2>
+                                    <div class="btn-container">
+                                        <button class="btn btn-color2 project-btn" 
+                                        onclick="location.href='https://figma.com/'">
+                                        Live Demo
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="box1">
+                <p class="section_text_p1" style="color: white;">Get in Touch</p>
+                <h1 class="title">Contact Me</h1>
+                <div class="contact-info-upper-container">
+                    <div class="contact-info-container">
+                        <img src="mail-icon.png" alt="Email icon" class="icon contact-icon email-icon"/>
+                        <p><a href="aryasethi2702@gmail.com">aryasethi@gmail.com</a></p>
+                    </div>
+                    <div class="contact-info-container">
+                        <img src="call-icon.png" alt="Call icon" class="icon contact-icon call-icon"/>
+                        <p id="textToCopy" onmouseover="copyTextToClipboard(this)"><a href="7976308263">7976308263</a></p>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <nav>
+                    <div class="nav-links-container">
+                        <ul class="nav-links1">
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <p>Copyright &#169; 2024 Arya Sethi. All Rights Reserved.</p>
+            </footer>
+        </div>
+    </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
